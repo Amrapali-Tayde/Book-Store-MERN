@@ -1,0 +1,30 @@
+GET http://localhost:1003/books
+
+
+###
+GET http://localhost:1003/books/672885e81f12454dd6648858
+
+
+###
+POST http://localhost:1003/books
+Content-Type: application/json
+
+{
+  "title": "ccc",
+  "author": "ddd",
+  "publishYear": 2222
+}
+
+###
+PUT  http://localhost:1003/books/672885e81f12454dd6648858
+Content-Type: application/json
+
+{
+  "title": "Bakulichi fule",
+  "author": "dhyanchand",
+  "publishYear": 333
+}
+
+
+###
+DELETE http://localhost:1003/books/672885e81f12454dd6648858
